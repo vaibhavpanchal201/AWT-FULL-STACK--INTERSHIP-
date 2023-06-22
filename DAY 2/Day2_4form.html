@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<head>
+    <title>
+        Form Page in HTML
+    </title>
+    <style>
+        .div1{
+            background-color:rgb(196,152,144);
+            color:white;
+            border:2px solid black;
+            margin:20px;
+            padding:20px;
+        }
+    </style>
+</head>
+<body style="background-color:azure;">
+    <form style="text-align:center">
+        <div class="div1">
+            <h1>Form Using HTML</h1>
+            <input type="text" autofocus placeholder="Enter First name here..."maxlength="20"/><br><br>
+            <input type="text" autofocus placeholder="Enter Last name here..."maxlength="20"/><br><br>
+
+            <input type="radio" id="G1" name="Gender"/><label for="G1">Male</label>&nbsp;&nbsp;
+            <input type="radio" id="G1" name="Gender"/><span>Female</span><br><br>
+            <label for="d1">Select Your Birthdate</label><br>
+            <input type="date" id="d1"/><br><br>
+            <textarea rows="5" placeholder="Enter Address Here..." maxlength="200"></textarea><br>
+          
+        </div>
+        <button onclick="window.location.href='http://127.0.0.1:5500/Day2_5form.html';"> Submit</button><br>
+    </form>
+    </body>
